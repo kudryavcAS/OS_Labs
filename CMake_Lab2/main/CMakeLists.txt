@@ -6,7 +6,7 @@
 add_executable (CMake_Lab2 "main.cpp" "CMake_Lab2.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET CMake_Lab2 PROPERTY CXX_STANDARD 20)
+  set_property(TARGET CMake_Lab2 PROPERTY CXX_STANDARD 17)
 endif()
 
 target_link_libraries(CMake_Lab2 PRIVATE arrayfunctions)

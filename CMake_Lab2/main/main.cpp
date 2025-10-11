@@ -1,9 +1,10 @@
 ﻿#include "ArrayFunctions.h"
-#include <iostream>
-#include <string>
+#include "CMake_Lab2.h"
+
+DWORD WINAPI searchMinMaxElement(LPVOID param);
+DWORD WINAPI searchAverage(LPVOID param);
 
 int main() {
-
 	constexpr int MAX_ARRAY_SIZE = 10000;
 	constexpr int CHARACTERS_TO_IGNORE = 10000;
 
@@ -44,39 +45,23 @@ int main() {
 	}
 
 	ArrayData arrayData(&array, 0, 0, 0);
-	HANDLE hMinMax = NULL;
-	HANDLE hAverage = NULL;
+
 	try {
+		std::thread minMaxThread([&arrayData]() {
+			searchMinMaxElement(&arrayData);
+			});
 
-		HANDLE hMinMax = CreateThread(NULL, 0, searchMinMaxElement, &arrayData, 0, NULL);
+		std::thread averageThread([&arrayData]() {
+			searchAverage(&arrayData);
+			});
 
-		HANDLE hAverage = CreateThread(NULL, 0, searchAverage, &arrayData, 0, NULL);
-
-		if (hMinMax == NULL || hAverage == NULL) {
-			DWORD error = GetLastError();
-			throw std::runtime_error(
-				"Failed to create threads.\nError code: " + std::to_string(error) +
-				".\nhMinMax: " + std::string(hMinMax ? "OK" : "FAILED") +
-				".\nhAverage: " + std::string(hAverage ? "OK" : "FAILED")
-			);
-		}
-
-		WaitForSingleObject(hMinMax, INFINITE);
-		WaitForSingleObject(hAverage, INFINITE);
+		minMaxThread.join();
+		averageThread.join();
 
 		std::cout << "The threads have completed their work.\n";
 
-		CloseHandle(hMinMax);
-		CloseHandle(hAverage);
-
 	}
 	catch (const std::exception& e) {
-		if (hMinMax != NULL) {
-			CloseHandle(hMinMax);
-		}
-		if (hAverage != NULL) {
-			CloseHandle(hAverage);
-		}
 		std::cout << "Thread error: " << e.what() << std::endl;
 		return 1;
 	}
@@ -86,9 +71,9 @@ int main() {
 		if (array[i] == arrayData.maxElement || array[i] == arrayData.minElement) {
 			array[i] = arrayData.average;
 		}
-
 		std::cout << array[i] << "\t";
 	}
+	std::cout << std::endl;
 
 	return 0;
 }
