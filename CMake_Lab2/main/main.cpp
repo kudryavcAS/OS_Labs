@@ -1,5 +1,4 @@
-﻿#include "ArrayFunctions.h"
-#include "CMake_Lab2.h"
+﻿#include "CMake_Lab2.h"
 
 DWORD WINAPI searchMinMaxElement(LPVOID param);
 DWORD WINAPI searchAverage(LPVOID param);
@@ -9,7 +8,6 @@ int main() {
 	constexpr int CHARACTERS_TO_IGNORE = 10000;
 
 	int n;
-
 	std::cout << "Enter the array size (n <" << MAX_ARRAY_SIZE << "):\n";
 	while (true) {
 		std::cin >> n;
