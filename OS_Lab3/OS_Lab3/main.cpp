@@ -82,7 +82,7 @@ int main() {
 	}
 
 	std::cout << "Enter the number of marker threads:" << std::endl;
-	inputNatural(count);
+	inputNatural(count, 64);
 
 	markerThreads.reserve(count);
 	threadStates.reserve(count);
