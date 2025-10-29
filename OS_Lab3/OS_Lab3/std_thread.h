@@ -11,6 +11,8 @@
 #include <chrono>
 #include <atomic>
 #include <memory>
+#include <condition_variable>
+
 
 extern std::mutex arrayMutex;
 extern std::mutex consoleMutex;
