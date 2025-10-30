@@ -72,7 +72,7 @@ void markerThread(int threadNumber) {
 
 int main() {
 	int count;
-
+	const int MAX_THREADS = 64;
 	std::cout << "Enter the array size:" << std::endl;
 	inputNatural(arraySize);
 
@@ -82,7 +82,7 @@ int main() {
 	}
 
 	std::cout << "Enter the number of marker threads:" << std::endl;
-	inputNatural(count, 64);
+	inputNatural(count, MAX_THREADS);
 
 	markerThreads.reserve(count);
 	threadStates.reserve(count);
