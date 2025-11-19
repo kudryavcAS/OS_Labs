@@ -1,12 +1,18 @@
 #include "receiver.h"
-#include <boost/interprocess/sync/scoped_lock.hpp>
-#include <thread>
-#include <chrono>
-#include <cstdlib>
+
+#ifdef _WIN32
+#define WIN32_LEAN_AND_MEAN
+#include <windows.h>
+#endif
 
 using namespace boost::interprocess;
 
 int main() {
+
+#ifdef _WIN32
+	SetConsoleTitleA("Receiver");
+#endif
+
 	std::string memoryName;
 	int maxMessages;
 	int senderCount;
@@ -50,9 +56,9 @@ int main() {
 
 	receiverLoop(sharedData, maxMessages, emptySemaphore, fullSemaphore, mutex);
 
-	std::cout << "Receiver: Please close Sender windows manually\n";
+	std::cout << "Close Sender windows manually\n";
 	cleanupResources(emptySemaphore, fullSemaphore, mutex, sharedData);
 
-	std::cout << "Receiver: Finished\n";
+	std::cout << "Receiver finished\n";
 	return 0;
 }

@@ -15,7 +15,6 @@ set_property(TARGET tests PROPERTY CXX_STANDARD 98)
 target_include_directories(tests PRIVATE ../receiver)
 target_include_directories(tests PRIVATE ../sender)
 
-# Добавьте Boost для тестов
 find_package(Boost REQUIRED COMPONENTS interprocess system filesystem)
 target_link_libraries(tests PRIVATE gtest_main 
     Boost::interprocess Boost::system Boost::filesystem)

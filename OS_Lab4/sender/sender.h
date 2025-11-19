@@ -12,20 +12,20 @@
 
 bool openSharedMemory(const std::string& memoryName, boost::interprocess::managed_shared_memory& segment, SharedData*& sharedData);
 bool openSynchronizationObjects(const std::string& baseName,
-   boost::interprocess::named_semaphore*& emptySemaphore,
-   boost::interprocess::named_semaphore*& fullSemaphore,
-   boost::interprocess::named_mutex*& mutex);
+	boost::interprocess::named_semaphore*& emptySemaphore,
+	boost::interprocess::named_semaphore*& fullSemaphore,
+	boost::interprocess::named_mutex*& mutex);
 void senderLoop(SharedData* sharedData,
-   boost::interprocess::named_semaphore* emptySemaphore,
-   boost::interprocess::named_semaphore* fullSemaphore,
-   boost::interprocess::named_mutex* mutex);
+	boost::interprocess::named_semaphore* emptySemaphore,
+	boost::interprocess::named_semaphore* fullSemaphore,
+	boost::interprocess::named_mutex* mutex);
 void cleanupSenderResources(boost::interprocess::named_semaphore* emptySemaphore,
-   boost::interprocess::named_semaphore* fullSemaphore,
-   boost::interprocess::named_mutex* mutex,
-   SharedData* sharedData);
+	boost::interprocess::named_semaphore* fullSemaphore,
+	boost::interprocess::named_mutex* mutex,
+	SharedData* sharedData);
 bool sendMessage(SharedData* sharedData,
-   boost::interprocess::named_semaphore* emptySemaphore,
-   boost::interprocess::named_semaphore* fullSemaphore,
-   boost::interprocess::named_mutex* mutex);
+	boost::interprocess::named_semaphore* emptySemaphore,
+	boost::interprocess::named_semaphore* fullSemaphore,
+	boost::interprocess::named_mutex* mutex);
 
 #endif
