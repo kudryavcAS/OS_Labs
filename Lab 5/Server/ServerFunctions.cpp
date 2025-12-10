@@ -22,17 +22,19 @@ void printFileContent(const std::string& filename) {
 	if (!file.is_open()) return;
 
 	Employee e;
+	{
+		std::lock_guard<std::mutex> lock(g_consoleMtx);
+		std::cout << "\nFile Content:\n";
+		std::cout << std::left << std::setw(10) << "ID" << std::setw(35) << "Name" << std::setw(10) << "Hours" << "\n";
+		std::cout << std::string(55, '-') << "\n";
 
-	std::lock_guard<std::mutex> lock(g_consoleMtx);
-	std::cout << "\n--- File Content ---\n";
-	std::cout << std::left << std::setw(10) << "ID" << std::setw(35) << "Name" << std::setw(10) << "Hours" << "\n";
-	std::cout << std::string(55, '-') << "\n";
-
-	while (file.read(reinterpret_cast<char*>(&e), sizeof(Employee))) {
-		std::cout << std::left << std::setw(10) << e.num
-			<< std::setw(35) << e.name << std::setw(10) << e.hours << "\n";
+		while (file.read(reinterpret_cast<char*>(&e), sizeof(Employee))) {
+			std::cout << std::left << std::setw(10) << e.num
+				<< std::setw(35) << e.name << std::setw(10) << e.hours << "\n";
+		}
+		std::cout << std::string(55, '-') << "\n";
 	}
-	std::cout << std::string(55, '-') << "\n";
+
 	file.close();
 }
 

@@ -101,7 +101,7 @@ void processSession(HANDLE hPipe) {
 			std::cout << "Modification sent.\n";
 		}
 		else {
-			std::cout << "Session finished.\n";
+			std::cout << "\nSession finished.\n";
 		}
 	}
 }

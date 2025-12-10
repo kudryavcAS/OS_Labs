@@ -5,5 +5,6 @@
   </Configurations>
   <Project Path="Client/Client.vcxproj" Id="ad626c93-632c-46fd-9989-cd66344b9f46" />
   <Project Path="Lab 5/Lab 5.vcxproj" Id="a7ae6305-dec5-47a2-9dcc-9fc2c73dc10d" />
+  <Project Path="Server/Server.vcxproj" Id="5d1d6085-316d-4e4f-8190-a42cdcd8082e" />
   <Project Path="ServerTests/ServerTests.vcxproj" />
 </Solution>

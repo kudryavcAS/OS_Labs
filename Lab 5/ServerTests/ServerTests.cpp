@@ -87,7 +87,7 @@ namespace ServerTests
 			WriteFile(hClientPipe, &req, sizeof(Request), &written, NULL);
 
 			Response resp;
-			ReadFile(hClientPipe, &resp, sizeof(Response), &read, NULL);
+			Assert::IsTrue(ReadFile(hClientPipe, &resp, sizeof(Response), &read, NULL));
 
 			Assert::IsTrue(resp.found);
 			Assert::AreEqual(10, resp.record.num);
