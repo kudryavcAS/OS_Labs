@@ -168,11 +168,9 @@ namespace ServerTests
 			req.employeeNum = 10;
 			DWORD written, read;
 
-			// Проверяем, что запись удалась
 			Assert::IsTrue(WriteFile(hClientPipe, &req, sizeof(Request), &written, NULL));
 
 			Response resp;
-			// ИСПРАВЛЕНИЕ: Проверяем результат ReadFile
 			Assert::IsTrue(ReadFile(hClientPipe, &resp, sizeof(Response), &read, NULL), L"Failed to read response");
 
 			Assert::IsTrue(resp.found);
@@ -212,7 +210,6 @@ namespace ServerTests
 			Assert::IsTrue(WriteFile(hClientPipe, &req, sizeof(Request), &written, NULL));
 
 			Response resp;
-			// ИСПРАВЛЕНИЕ: Проверяем результат ReadFile
 			Assert::IsTrue(ReadFile(hClientPipe, &resp, sizeof(Response), &read, NULL), L"Failed to read response");
 			Assert::IsTrue(resp.found);
 
