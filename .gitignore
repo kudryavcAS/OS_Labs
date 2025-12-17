@@ -1,133 +1,34 @@
-# ================================
-# Бинарные файлы и артефакты сборки
-# ================================
-
-# Исполняемые файлы
-*.exe
-*.out
-*.app
-*.dll
-*.so
-*.dylib
-
-# Библиотеки
-*.lib
-*.a
-*.la
-
-# Объектные файлы
-*.o
-*.obj
-*.lo
-
-# Файлы отладки
-*.pdb
-*.idb
-*.ilk
-*.db
-
-# ================================
-# CMake артефакты
-# ================================
-
-# Автогенерируемые директории CMake
-build/
-out/
-cmake-build-*/
-CMakeFiles/
-*.cmake
-
-# Файлы кэша и настроек
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-*.cmake.in
-
-# Файлы зависимостей
-*.depend
-*.d
-
-# ================================
-# Системные файлы
-# ================================
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# Linux
-*~
-.directory
-
-# ================================
-# IDE и редакторы
-# ================================
-
-# Visual Studio
 .vs/
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
-*.sln
-*.sdf
-*.opensdf
-*.suo
-*.db
 x64/
 x86/
-Win32/
 Debug/
 Release/
+ARM/
+ARM64/
 
-# CLion
-.idea/
-cmake-build-*/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# VS Code
-.vscode/
-*.code-workspace
-
-# Eclipse
-.settings/
-.metadata/
-
-# ================================
-# Резервные копии и временные файлы
-# ================================
-
-*.bak
-*.tmp
-*.temp
-*.swp
-*.swo
-
-# ================================
-# Логи
-# ================================
-
-*.log
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.gch
+*.pch
+*.ipch
 *.tlog
 *.lastbuildstate
+*.log
 
-# ================================
-# Покрытие кода и профилирование
-# ================================
+*.exe
+*.dll
+*.lib
+*.exp
 
-*.gcda
-*.gcno
-*.gcov
+*.bin
 
-# ================================
-# Установочные директории
-# ================================
-
-install/
-dist/
-package/
+Thumbs.db
+Desktop.ini
