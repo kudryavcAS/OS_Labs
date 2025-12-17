@@ -11,6 +11,9 @@ ARM64/
 *.user
 *.userosscache
 *.sln.docstates
+*.aps
+*.opendb
+*.db
 
 *.obj
 *.pdb
@@ -22,13 +25,19 @@ ARM64/
 *.tlog
 *.lastbuildstate
 *.log
+*.iobj
+*.ipdb
+*.exp
 
 *.exe
 *.dll
 *.lib
-*.exp
 
 *.bin
 
 Thumbs.db
 Desktop.ini
+
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
