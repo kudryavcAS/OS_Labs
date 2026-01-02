@@ -12,4 +12,5 @@
   <Project Path="Creator/Creator.vcxproj" Id="1d3c3959-e6de-49d1-88ab-7f870ee0f168" />
   <Project Path="Main/Main.vcxproj" Id="7bea4466-6ac6-461f-a064-02db5721441d" />
   <Project Path="Reporter/Reporter.vcxproj" Id="4a6e0f92-2f97-46c8-a0e1-6cf9ae0d1581" />
+  <Project Path="Tests/Tests.vcxproj" Id="9d729d9b-a9e1-44b9-b60e-444eb6d1c079" />
 </Solution>
