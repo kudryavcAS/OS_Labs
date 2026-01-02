@@ -1,19 +1,22 @@
-.vs/
 x64/
 x86/
 Debug/
 Release/
 ARM/
 ARM64/
+.vs/
+build/
+out/
+CMakeFiles/
 
-*.vcxproj.user
-*.suo
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
 *.aps
 *.opendb
 *.db
+*.ipch
 
 *.obj
 *.pdb
@@ -21,19 +24,21 @@ ARM64/
 *.idb
 *.gch
 *.pch
-*.ipch
 *.tlog
 *.lastbuildstate
 *.log
 *.iobj
 *.ipdb
 *.exp
-
 *.exe
 *.dll
 *.lib
-
 *.bin
+
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
 
 Thumbs.db
 Desktop.ini
@@ -41,3 +46,6 @@ Desktop.ini
 !*.sln
 !*.vcxproj
 !*.vcxproj.filters
+!*.h
+!*.hpp
+!*.cpp

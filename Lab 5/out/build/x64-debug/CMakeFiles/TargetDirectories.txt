@@ -1,4 +1,0 @@
-D:/Y/OS_Labs/Lab 5/out/build/x64-debug/CMakeFiles/Server.dir
-D:/Y/OS_Labs/Lab 5/out/build/x64-debug/CMakeFiles/Client.dir
-D:/Y/OS_Labs/Lab 5/out/build/x64-debug/CMakeFiles/edit_cache.dir
-D:/Y/OS_Labs/Lab 5/out/build/x64-debug/CMakeFiles/rebuild_cache.dir

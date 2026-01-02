@@ -1,7 +1,0 @@
-# ninja log v6
-8	680	7890525624892157	sender/CMakeFiles/sender.dir/sender.cpp.obj	d842eba0bbc0929b
-15	684	7890525625044663	sender/CMakeFiles/sender.dir/sender_func.cpp.obj	eece13f439aec479
-684	935	7890525631778950	sender.exe	4a703ead6ce476a1
-15	681	7890525752527708	receiver/CMakeFiles/receiver.dir/receiver.cpp.obj	d2b38cae39d6990e
-9	684	7890525752403152	receiver/CMakeFiles/receiver.dir/receiver_func.cpp.obj	63b2e0d6519e6649
-684	925	7890525759170732	receiver.exe	df6f77ff7e171795

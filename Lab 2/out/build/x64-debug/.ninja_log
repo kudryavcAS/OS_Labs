@@ -1,5 +1,0 @@
-# ninja log v6
-9	592	7890527193255455	lib/CMakeFiles/arrayfunctions.dir/ArrayFunctions.cpp.obj	79ea04dd8cc13306
-593	679	7890527199150185	lib/arrayfunctions.lib	7a2cc91ad423375b
-15	864	7890527193413850	main/CMakeFiles/CMake_Lab2.dir/main.cpp.obj	f769284859548a70
-864	1093	7890527201943049	main/CMake_Lab2.exe	d05627ee55af905c
