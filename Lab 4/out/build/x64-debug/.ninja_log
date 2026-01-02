@@ -1,21 +1,7 @@
 # ninja log v6
-26	1614	7853246804211359	sender/CMakeFiles/sender.dir/sender.cpp.obj	f43b2fc1199a8b1d
-38	1826	7853246804211359	sender/CMakeFiles/sender.dir/sender_func.cpp.obj	c72ee788ad107d16
-1827	2805	7853246822068387	sender.exe	ca89ebd6f8d3f03c
-52	1931	7853246884884387	receiver/CMakeFiles/receiver.dir/receiver_func.cpp.obj	dc39d0458437f7b
-64	1960	7853246885004290	receiver/CMakeFiles/receiver.dir/receiver.cpp.obj	ff1fa0a17084d85
-1961	2762	7853246903962421	receiver.exe	ddeb87df8bb5fada
-54	1498	7853266822193036	receiver/CMakeFiles/receiver.dir/receiver.cpp.obj	b5ab7b9e3277bb43
-45	1508	7853266822103034	receiver/CMakeFiles/receiver.dir/receiver_func.cpp.obj	a1dee748998d268c
-1508	2309	7853266836640650	receiver.exe	ddeb87df8bb5fada
-55	1217	7853266995554412	sender/CMakeFiles/sender.dir/sender.cpp.obj	e2c6e2f64021ea09
-65	1227	7853266995619586	sender/CMakeFiles/sender.dir/sender_func.cpp.obj	355684e417e1d9dc
-1227	1845	7853267007275438	sender.exe	ca89ebd6f8d3f03c
-30	1526	7853273855637691	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	59d192697fc71182
-43	1574	7853273855777679	tests/CMakeFiles/tests.dir/__/receiver/receiver_func.cpp.obj	8d290b19934d221b
-50	1584	7853273855837729	tests/CMakeFiles/tests.dir/__/sender/sender_func.cpp.obj	d5b61316ca904742
-37	2251	7853273855717715	tests/CMakeFiles/tests.dir/tests.cpp.obj	73130a932de66c83
-21	3115	7853273855557661	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	8bcb1ef65eb80e39
-3115	3226	7853273886498726	lib/gtest.lib	76fa99d149733fd4
-3226	3285	7853273887601800	lib/gtest_main.lib	1d881d972bab29f7
-3286	4207	7853273888207369	tests/tests.exe	4b4c2c179d6aaf4
+8	680	7890525624892157	sender/CMakeFiles/sender.dir/sender.cpp.obj	d842eba0bbc0929b
+15	684	7890525625044663	sender/CMakeFiles/sender.dir/sender_func.cpp.obj	eece13f439aec479
+684	935	7890525631778950	sender.exe	4a703ead6ce476a1
+15	681	7890525752527708	receiver/CMakeFiles/receiver.dir/receiver.cpp.obj	d2b38cae39d6990e
+9	684	7890525752403152	receiver/CMakeFiles/receiver.dir/receiver_func.cpp.obj	63b2e0d6519e6649
+684	925	7890525759170732	receiver.exe	df6f77ff7e171795

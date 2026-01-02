@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Y/OS_labs/Lab 4/out/build/x64-debug/cmake_install.cmake",
+		"D:/Y/OS_labs/Lab 4/out/build/x64-debug/receiver/cmake_install.cmake",
+		"D:/Y/OS_labs/Lab 4/out/build/x64-debug/sender/cmake_install.cmake",
+		"D:/Y/OS_labs/Lab 4/out/build/x64-debug/tests/cmake_install.cmake",
+		"D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-build/cmake_install.cmake",
+		"D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

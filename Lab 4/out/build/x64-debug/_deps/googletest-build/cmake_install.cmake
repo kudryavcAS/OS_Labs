@@ -1,8 +1,8 @@
-# Install script for directory: D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-src
+# Install script for directory: D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/Y/OS_Labs/Lab 4/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "D:/Y/OS_labs/Lab 4/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-build/googlemock/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-build/install_local_manifest.txt"
+  file(WRITE "D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

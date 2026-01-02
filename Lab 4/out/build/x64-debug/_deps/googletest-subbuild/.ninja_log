@@ -1,21 +1,21 @@
 # ninja log v6
-3286	3349	7853246547010550	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	a7bae3ef4d3d0470
-7	72	7853246514249091	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	771d887a59f44ee9
-73	3093	7853246544313477	D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	f06605a8057e0db
-3093	3155	7853246545003668	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	43690d02c374c090
-3416	3481	7853246548326622	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	24fe9e6803e65bf6
-7	72	7853246514249091	D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	771d887a59f44ee9
-73	3093	7853246544313477	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	f06605a8057e0db
-3156	3221	7853246545628970	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	2ea6e47871ab9fd7
-3093	3155	7853246545003668	D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	43690d02c374c090
-3156	3221	7853246545628970	D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	2ea6e47871ab9fd7
-3221	3285	7853246546320112	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	87e2311ea07b1c95
-3481	3571	7853246549173584	CMakeFiles/googletest-populate-complete	d46cf32495fe0d11
-3221	3285	7853246546320112	D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	87e2311ea07b1c95
-3286	3349	7853246547010550	D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	a7bae3ef4d3d0470
-3349	3415	7853246547636113	D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	d712454d5c6b7e9d
-3349	3415	7853246547636113	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	d712454d5c6b7e9d
-3416	3481	7853246548326622	D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	24fe9e6803e65bf6
-3481	3571	7853246549173584	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	d46cf32495fe0d11
-3481	3571	7853246549173584	D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	d46cf32495fe0d11
-3481	3571	7853246549173584	D:/Y/OS_Labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	d46cf32495fe0d11
+4	58	7890525304303852	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	d67d2385afb37cd5
+4	58	7890525304303852	D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	d67d2385afb37cd5
+58	10028	7890525404020580	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	4ad479ef478b89f6
+58	10028	7890525404020580	D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	4ad479ef478b89f6
+10028	10083	7890525404547768	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	3094242e885d0f13
+10028	10083	7890525404547768	D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	3094242e885d0f13
+10083	10137	7890525405049535	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	c683659771786fd2
+10083	10137	7890525405049535	D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	c683659771786fd2
+10137	10192	7890525405657279	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	2adeb3e7498dc939
+10137	10192	7890525405657279	D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	2adeb3e7498dc939
+10192	10244	7890525406188141	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	b07775a76d1c101a
+10192	10244	7890525406188141	D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	b07775a76d1c101a
+10244	10296	7890525406715409	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	c6bf1296b5e9d1e9
+10244	10296	7890525406715409	D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	c6bf1296b5e9d1e9
+10296	10348	7890525407232667	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	b9ad3e26d026d93c
+10296	10348	7890525407232667	D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	b9ad3e26d026d93c
+10348	10428	7890525407946108	CMakeFiles/googletest-populate-complete	b26909fce2f7d08f
+10348	10428	7890525407946108	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	b26909fce2f7d08f
+10348	10428	7890525407946108	D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	b26909fce2f7d08f
+10348	10428	7890525407946108	D:/Y/OS_labs/Lab 4/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	b26909fce2f7d08f
